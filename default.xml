@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="8"/>
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+  <remote name="oe" fetch="git://git.openembedded.org"/>
+  <remote name="meta-pigeon" fetch="https://github.com/sadomich"/>
+
+  <project remote="yocto" name="poky" path="sources/poky" revision="fc8e5d7c13f62e987b76971116cf290fd01a0c8f" updatream="master"/>
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded" revision="528f273006965496ce7e19147f0a0e34a97a8f9c" upstream="master"/>
+  <project remote="yocto" name="meta-raspberrypi" path="sources/meta-raspberrypi" revision="dbf1113a8277772ddb59fb1c44013e4f3c6d2dda" upstream="master"/>
+  <project remote="meta-pigeon" name="meta-pigeon" path="sources/meta-pigeon" revision="master"/>
+
+</manifest>
