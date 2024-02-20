@@ -3,9 +3,9 @@
 
   <default sync-j="8"/>
 
-  <remote name="yocto" fetch="git://git.yoctoproject.org"/>
-  <remote name="oe" fetch="git://git.openembedded.org"/>
-  <remote name="meta-pigeon" fetch="https://github.com/sadomich"/>
+  <remote name="yocto" fetch="git://git.yoctoproject.org" alias="origin"/>
+  <remote name="oe" fetch="git://git.openembedded.org" alias="origin"/>
+  <remote name="meta-pigeon" fetch="https://github.com/sadomich" alias="origin"/>
 
   <project remote="yocto" name="poky" path="sources/poky" revision="0b39955d14600257a6eafc211fd68a933c69a0e9" updatream="kirkstone"/>
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded" revision="8609de00952d65bb813a48c535c937324efeb18a" upstream="kirkstone"/>
